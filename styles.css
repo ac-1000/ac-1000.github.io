@@ -1,0 +1,44 @@
+/* Styling the navigation bar */
+nav {
+    background-color: pink;
+    overflow: hidden;
+    border-radius: 20px; /* Rounded corners */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Add padding to all sides */
+    position: fixed; /* Fixed position */
+    top: 10px; /* 10px from the top */
+    left: 10px; /* 10px from the left */
+    right: 10px; /* 10px from the right */
+}
+
+/* Styling the navigation links */
+nav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px; /* Bigger text */
+    margin: 0 10px; /* Add some spacing between links */
+}
+
+/* Styling the logo */
+nav a.logo {
+    font-size: 24px; /* Larger font size for logo */
+    margin-right: auto; /* Push the logo to the left */
+}
+
+/* Styling the navigation links container */
+.nav-links {
+    margin-left: auto; /* Push the links to the right */
+}
+
+/* Reset margin for paragraphs */
+p {
+    margin-top: 50px; /* Adjust as needed to provide enough space below the navigation bar */
+}
+
+/* Links */
+a:hover {
+    font-weight: bold;
+    color: rgb(4, 0, 43);
+}
